@@ -8,7 +8,7 @@ on:
 
 jobs:
   train_and_deploy:
-    runs-on: self-hosted
+    runs-on: ubuntu 22.04
 
     env:
       PYTHONPATH: ./src  # để import src/ model/ config/...
